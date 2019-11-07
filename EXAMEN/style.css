@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Raleway', sans-serif;
+    background: url("img/fig2.jpg");
+    background-position: center center;
+    -webkit-background-size: 50%;
+    -moz-background-size:50%;
+    -o-background-size:50%;
+    background-size:50%;
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+form{
+    background: rgba(255, 255, 255, 0.301);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background: rgba(255, 255, 255, 0.301);
+    color: blanchedalmond;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div p{
+    font-size: 30px;
+}
+input{
+    background: RGB(00, 00, 00);
+    color: RGB(245, 252, 251);
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    display: block;
+    margin:15px 0;
+    padding: 15px 20px;
+}
+header{
+    position: relative;
+    max-width:100%;
+    margin: 20px auto;
+    padding: 10px;
+    background: RGB(238, 246, 249);
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    margin:15px 0;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color:RGB(00, 00, 00);
+}
+nav ul li a.active{
+    background: RGB(00, 00, 00);
+    color: RGB(245, 252, 251);
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+nav ul li a:hover{
+    background: rgb(44, 46, 48);
+    color: RGB(245, 252, 251);
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
